@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RE Search</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- شريط الانتقال العلوي -->
+    <header>
+      <nav class="top-nav">
+        <a href="image.html">Image Search</a>
+        <a href="advanced.html">Advanced Search</a>
+      </nav>
+    </header>
+
+    <!-- محتوى الصفحة الرئيسي -->
+    <main class="container">
+      <!-- الشعار -->
+      <div class="logo">
+        <span class="blue">R</span><span class="red">E</span>
+      </div>
+
+      <!-- نموذج البحث -->
+      <form action="https://www.google.com/search" method="GET">
+        <div class="search-box">
+          <input type="text" name="q" class="search-input" autofocus required />
+        </div>
+
+        <div class="button-group">
+          <input type="submit" value="RE Search" class="btn" />
+          <input
+            type="submit"
+            name="btnI"
+            value="I'm Feeling Lucky"
+            class="btn"
+          />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

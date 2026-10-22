@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RE Images</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- شريط الانتقال العلوي -->
+    <header>
+      <nav class="top-nav">
+        <a href="index.html">RE Search</a>
+      </nav>
+    </header>
+
+    <!-- محتوى الصفحة الرئيسي -->
+    <main class="container">
+      <!-- الشعار مع كلمة Images -->
+      <div class="logo">
+        <span class="blue">R</span><span class="red">E</span>
+        <span class="sub-text">images</span>
+      </div>
+
+      <!-- نموذج بحث الصور -->
+      <form action="https://www.google.com/search" method="GET">
+        <!-- البرامتر المطلوب من هارفارد لبحث الصور -->
+        <input type="hidden" name="tbm" value="isch" />
+
+        <div class="search-box">
+          <input type="text" name="q" class="search-input" autofocus required />
+        </div>
+
+        <div class="button-group">
+          <input type="submit" value="Image Search" class="btn" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
